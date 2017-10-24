@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE anthology [
+  <!ELEMENT anthology (poem)+>
+
+  <!ELEMENT poem (title,stanza+)>
+  <!ATTLIST id ID #REQUIRED>
+  <!ATTLIST author CDATA #REQUIRED>
+
+  <!ELEMENT title (#PCDATA)>
+
+  <!ELEMENT stanza (line+)>
+
+  <!ELEMENT line (#PCDATA)>
+  <!ATTLIST note CDATA #IMPLIED>
+
+]>
+<anthology>
+  <poem id="ROSE" author="William Blake">
+    <title>The SICK ROSE</title>
+    <stanza>
+      <line>O Rose thou art sick.</line>
+      <line note="What do the rose and worm symbolise?">
+        The invisible worm,
+      </line>
+      <line>That flies in the night</line>
+      <line note="Note the personification here.">
+        In the howling storm:
+      </line>
+    </stanza>
+    <stanza>
+      <line>Has found out thy bed</line>
+      <line>Of crimson joy:</line>
+      <line>And his dark secret love</line>
+      <line note="Fall from innocence.">
+        Does thy life destroy.
+      </line>
+    </stanza>
+  </poem>
+  <!-- more poems go here    -->
+</anthology>
