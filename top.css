@@ -1,0 +1,17 @@
+* { font-size: 14pt;
+    background: white;
+    color : gray;
+    border: 2px solid black; width: 400px
+  }
+
+:root { display : block;
+        background-color: #eeeeee;
+        margin-left: 2em; margin-top: 2em;
+      }
+
+* > * { display : none;
+        position: relative;
+        top: 2px; left: 2em;
+      }
+
+*:hover > * { display : block }
