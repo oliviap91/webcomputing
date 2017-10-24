@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE personnel [
+  <!ELEMENT personnel (person)+>
+
+  <!ELEMENT person (name,email*,url*,link?)>
+  <!ATTLIST person id ID #REQUIRED>
+  <!ATTLIST person note CDATA #IMPLIED>
+  <!ATTLIST person is-manager (true|false) 'false'>
+  <!ATTLIST person job-description CDATA #REQUIRED>
+  <!ATTLIST person salary CDATA #IMPLIED>
+
+  <!ELEMENT name ((family,given)|(given,family))>
+
+  <!ELEMENT family (#PCDATA)>
+
+  <!ELEMENT given (#PCDATA)>
+
+  <!ELEMENT email (#PCDATA)>
+
+  <!ELEMENT url EMPTY>
+  <!ATTLIST url href CDATA 'http://'>
+
+  <!ELEMENT link EMPTY>
+  <!ATTLIST link manager IDREF #IMPLIED>
+  <!ATTLIST link subordinates IDREFS #IMPLIED>
+]>
+
+<personnel>
+  <person id="a15" job-description="Student" is-manager="true">
+    <name>
+      <given>Olivia</given>
+      <family>Phillips</family>
+    </name>
+    <email>op79@sussex.ac.uk</email>
+    <url href="http://www.oliviaphillips.co.uk"></url>
+    <link subordinates="b12"></link>
+  </person>
+  <person id="b12" job-description="Student">
+    <name>
+      <given>Flavius</given>
+      <family>Morariu</family>
+    </name>
+    <email>fm263@sussex.ac.uk</email>
+    <url href="http://www.flaviusmorariu.co.uk"></url>
+    <link manager="a15"></link>
+  </person>
+  <person id="b13" job-description="Lecturer">
+    <name>
+      <given>Joe</given>
+      <family>Bloggs</family>
+    </name>
+    <email>joebloggs@hotmail.co.uk</email>
+  </person>
+</personnel>
