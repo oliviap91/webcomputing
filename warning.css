@@ -1,0 +1,18 @@
+top { display : block;
+  margin: 3em;
+}
+
+paragraph{
+  display: block;
+  width:40%;
+}
+
+warning{
+  position: absolute;
+  top: auto; left: 1em;
+}
+
+warning:before{
+  content:"*";
+  color:red;
+}
