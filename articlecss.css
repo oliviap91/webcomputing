@@ -1,0 +1,11 @@
+INSTRUMENT { display: inline }
+ARTICLE, HEADLINE, AUTHOR, PARA { display: block }
+
+HEADLINE { font-size: 1.4em; color: darkgreen }
+AUTHOR { font-style: italic; color: navy }
+INSTRUMENT { text-transform: uppercase; color: red }
+
+ARTICLE, HEADLINE, AUTHOR, PARA { margin: 1em }
+PARA + PARA{ color:green }
+PARA + PARA + PARA { color:red; background-color:gray }
+PARA + PARA + PARA INSTRUMENT { color:blue }

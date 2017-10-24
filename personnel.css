@@ -1,0 +1,9 @@
+person {
+  width:50%;
+  border-style:solid;
+  display:flex;
+  flex-direction: row ltr
+}
+person[private= "yes"]{
+  display:none;
+}
