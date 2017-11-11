@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colours xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="colour">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="red" type="xs:integer"/>
+        <xs:element name="green" type="xs:integer"/>
+        <xs:element name="blue" type="xs:integer"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>>
+  <colour id="black">
+    <red>0</red>
+    <green>0</green>
+    <blue>0</blue>
+  </colour>
+  <colour id="red">
+    <red>255</red>
+    <green>0</green>
+    <blue>0</blue>
+  </colour>
+</colours>

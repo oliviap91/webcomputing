@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE colours [
+  <!ELEMENT colours (colour)+>
+
+  <!ELEMENT colour (red,green,blue)>
+  <!ATTLIST id ID #REQUIRED>
+
+  <!ELEMENT red (#PCDATA)>
+  <!ELEMENT green (#PCDATA)>
+  <!ELEMENT blue (#PCDATA)>
+]/>
+<colours>
+  <colour id="black">
+    <red>0</red>
+    <green>0</green>
+    <blue>0</blue>
+  </colour>
+  <colour id="red">
+    <red>255</red>
+    <green>0</green>
+    <blue>0</blue>
+  </colour>
+</colours>

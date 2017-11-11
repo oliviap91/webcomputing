@@ -3,15 +3,15 @@
   <!ELEMENT anthology (poem)+>
 
   <!ELEMENT poem (title,stanza+)>
-  <!ATTLIST id ID #REQUIRED>
-  <!ATTLIST author CDATA #REQUIRED>
+  <!ATTLIST poem id ID #REQUIRED>
+  <!ATTLIST poem author CDATA #REQUIRED>
 
   <!ELEMENT title (#PCDATA)>
 
   <!ELEMENT stanza (line+)>
 
   <!ELEMENT line (#PCDATA)>
-  <!ATTLIST note CDATA #IMPLIED>
+  <!ATTLIST line note CDATA #IMPLIED>
 
 ]>
 <anthology>
