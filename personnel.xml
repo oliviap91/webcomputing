@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/css" href="personnel.css"?>
+<!DOCTYPE personnel [
+  <!ELEMENT personnel (person)+>
+
+  <!ELEMENT person(name,id,role,salary)>
+  <!ATTLIST person private ("Yes"|"No") #REQUIRED>
+
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT role (#PCDATA)>
+  <!ELEMENT salary (#PCDATA)>
+]/>
 <personnel>
 
    <person private="no">

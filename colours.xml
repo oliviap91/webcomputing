@@ -3,7 +3,7 @@
   <!ELEMENT colours (colour)+>
 
   <!ELEMENT colour (red,green,blue)>
-  <!ATTLIST id ID #REQUIRED>
+  <!ATTLIST colour id ID #REQUIRED>
 
   <!ELEMENT red (#PCDATA)>
   <!ELEMENT green (#PCDATA)>
