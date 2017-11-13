@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<addressbook>
+  <address type="postal">
+    <streetnumber>12</streetnumber>
+    <streetname>West Street</streetname>
+    <town>Brighton</town>
+    <country>United Kingdom</country>
+    <postcode>BN1 7TY</postcode>
+  </address>
+  <address type = "computer">
+    <ipaddress>No namespaces, just the type attribute</ipaddress>
+    <location>Which isn't right, I wouldn't actually do this</location>
+    <name>Because namespaces are supposed to remove conflicts from tags</name>
+  </address>
+</addressbook>

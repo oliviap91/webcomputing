@@ -1,0 +1,28 @@
+<?xml version = "1.0"?>
+<addressbook xmlns:postaladdress = "addressbook:postaladdressinfo" xmlns:computeraddress = "addressbook:computeraddressinfo">
+  <![CDATA[This is here beacause I wanted to test it :)]]>
+  <postaladdress:address>
+    <postaladdress:streetnumber>12</postaladdress:streetnumber>
+    <postaladdress:streetname>West Street</postaladdress:streetname>
+    <postaladdress:town>Brighton</postaladdress:town>
+    <postaladdress:country>United Kingdom</postaladdress:country>
+    <postaladdress:postcode>BN1 7TY</postaladdress:postcode>
+  </postaladdress:address>
+  <postaladdress:address>
+    <postaladdress:streetnumber>This is</postaladdress:streetnumber>
+    <postaladdress:streetname>really long to</postaladdress:streetname>
+    <postaladdress:town>keep typing out.</postaladdress:town>
+    <postaladdress:country>But it looks so organised!</postaladdress:country>
+    <postaladdress:postcode>I like this way of doing namespaces</postaladdress:postcode>
+  </postaladdress:address>
+  <computeraddress:address>
+    <computeraddress:ipaddress>Better method than type attributes, but</computeraddress:ipaddress>
+    <computeraddress:location>I suppose that depends on the context</computeraddress:location>
+    <computeraddress:name>:)</computeraddress:name>
+  </computeraddress:address>
+  <computeraddress:address>
+    <computeraddress:ipaddress>86.20.83.59</computeraddress:ipaddress>
+    <computeraddress:location>Brighton</computeraddress:location>
+    <computeraddress:name>Olivia</computeraddress:name>
+  </computeraddress:address>
+</addressbook>

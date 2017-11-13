@@ -1,0 +1,48 @@
+<Bondcollection>
+  <OfficialMovies>
+    <Movie>
+      <title>
+        Dr.No
+      </title>
+      <director>
+        Terence Young
+      </director>
+      <year>
+        1962
+      </year>
+      <Bond>
+        Sean Connery
+      </Bond>
+    </Movie>
+    <Movie>
+      <title>
+        Goldfinger
+      </title>
+      <director>
+        Guy Hamilton
+      </director>
+      <year>
+        1964
+      </year>
+      <Bond>
+        Sean Connery
+      </Bond>
+    </Movie>
+  </OfficialMovies>
+  <UnofficialMovies>
+    <Movie>
+      <title>
+        Casino Royale
+      </title>
+      <director>
+        Val Guest
+      </director>
+      <year>
+        1967
+      </year>
+      <Bond>
+        David Niven
+      </Bond>
+    </Movie>
+  </UnofficialMovies>
+</Bondcollection>

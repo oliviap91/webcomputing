@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <meta name="creator" content="H. T. Emel"></meta>
+  <meta name="subject" content="Exercise"></meta>
+ </head>
+ <body>
+   <title>Example doc</title>
+    <p><b><font face="Arial,Helvetica,Univers,Zurich BT" size="-1">Publications</font></b></p>
+    <ul>
+      <li>Publication A</li>
+      <li>Publication B</li>
+    </ul>
+ </body>
+</html>
