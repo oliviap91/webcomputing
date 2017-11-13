@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="colours">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="colour" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="red" type="xs:integer"/>
+            <xs:element name="green" type="xs:integer"/>
+            <xs:element name="blue" type="xs:integer"/>
+          </xs:sequence>
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
