@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><addressbook>
+<computeraddress:address xmlns:computeraddress="addressbook:computeraddressinfo">
+  <computeraddress:name>Olivia</computeraddress:name>
+    <computeraddress:location>Brighton</computeraddress:location>
+    <computeraddress:ipaddress>86.20.83.59</computeraddress:ipaddress>
+    </computeraddress:address>
+  <postaladdress:address xmlns:postaladdress="addressbook:postaladdressinfo">
+  <postaladdress:postcode>BN1 7TY</postaladdress:postcode>
+    <postaladdress:country>United Kingdom</postaladdress:country>
+    <postaladdress:town>I like the other one</postaladdress:town>
+    <postaladdress:streetname>Another way to do namespaces</postaladdress:streetname>
+    <postaladdress:streetnumber>Oh look</postaladdress:streetnumber>
+    </postaladdress:address>
+  <postaladdress:address xmlns:postaladdress="addressbook:postaladdressinfo">
+  <postaladdress:postcode>BN1 7TY</postaladdress:postcode>
+    <postaladdress:country>United Kingdom</postaladdress:country>
+    <postaladdress:town>Brighton</postaladdress:town>
+    <postaladdress:streetname>West Street</postaladdress:streetname>
+    <postaladdress:streetnumber>12</postaladdress:streetnumber>
+    </postaladdress:address>
+  </addressbook>
