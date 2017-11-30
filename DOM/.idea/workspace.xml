@@ -13,16 +13,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xml.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xml.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="46">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#1530#1531#0" expanded="true" />
                 <element signature="e#1594#1595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLMerge.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/XMLMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/SerializeHack.java" />
         <option value="$PROJECT_DIR$/src/xml.java" />
+        <option value="$PROJECT_DIR$/src/XMLMerge.java" />
       </list>
     </option>
   </component>
@@ -133,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.Merge">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -398,7 +416,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="Reverse" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="xml" />
       <option name="VM_PARAMETERS" value="" />
@@ -413,8 +431,24 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+    <configuration default="false" name="Merge" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="XMLMerge" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;foo.xml&quot; &quot;bar.xml&quot; &quot;foo-bar.xml&quot;" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DOM" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Reverse" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Merge" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -495,13 +529,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#1530#1531#0" expanded="true" />
             <element signature="e#1594#1595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XMLMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="79" column="34" lean-forward="true" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
           </folding>
         </state>
       </provider>
