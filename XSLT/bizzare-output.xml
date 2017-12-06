@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><numbyrs>
+  <contact typy="business">
+    <namy>Mrs A.</namy>
+    <numbyr>(01273) 555-1234</numbyr>
+  </contact>
+  <contact typy="business">
+    <namy>Mr B.</namy>
+    <numbyr>(01273) 555-1801</numbyr>
+  </contact>
+  <contact typy="friends">
+    <namy>Ms C.</namy>
+    <numbyr>(01273) 555-1999</numbyr>
+  </contact>
+  <contact typy="friends">
+    <namy>Dr D.</namy>
+    <numbyr>(01903) 555-1111</numbyr>
+  </contact>
+  <contact typy="business">
+    <namy>Prof E.</namy>
+    <numbyr>(01208) 555-9876</numbyr>
+  </contact>
+  <contact typy="friends">
+    <namy>Sir F.</namy>
+    <numbyr>(01273) 555-4312</numbyr>
+  </contact>
+</numbyrs>
